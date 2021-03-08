@@ -1,4 +1,3 @@
-
 /* global Handlebars, utils, dataSource */ // eslint-disable-line no-unused-vars
 
 {
@@ -114,30 +113,28 @@
     processOrder(){
       const thisProduct = this;
       const formData = utils.serializeFormToObject(thisProduct.form);
+      console.log('form data', formData);
       let price = thisProduct.data.price;
       for (let paramId in thisProduct.data.params) {
         const param = thisProduct.data.params[paramId];
         for (let optionId in param.options) {
+          // determine option value, e.g. optionId = 'olives', option = { label: 'Olives', price: 2, default: true }
           const option = param.options[optionId];
-          const optionSelected = formData[paramId] && formData[paramId].includes(optionId);
-          const optionImage = thisProduct.imageWrapper.querySelector('.' + paramId + '-' + optionId);
-          if (optionSelected) {
+          console.log(optionId, option);
+
+          // check if there is param with a name of paramId in formData and if it includes optionId
+          if(formData[paramId] && formData[paramId].includes(optionId)){
+            // check if the option is not default
             if (!option.default) {
-              price = price + option.price;
-            } else {
-              if(option.default) {
-                price = price + option.price;
-              }
-            }
-            if(optionImage){
-              if(optionSelected){
-                optionImage.classList.add(classNames.menuProduct.imageVisible);
-              }else if(!optionSelected){
-                optionImage.classList.remove(classNames.menuProduct.imageVisible);
-              }
-              console.log('optionImage:',optionImage);
+              // add option price to price variable
+              price = price + option.price;}
+          } else {
+            // check if the option is default
+            if (option.default) {
+              price = price - option.price;
             }
           }
+
         }
         thisProduct.priceElem.innerHTML = price;
       }
