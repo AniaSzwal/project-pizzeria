@@ -163,12 +163,6 @@
             }
           }
 
-          //multiply price by amount
-          price *= thisProduct.amountWidget.value;
-
-          // update calculated price in the HTML
-          thisProduct.priceElem.innerHTML = price;
-
           const optionImage = thisProduct.imageWrapper.querySelector('.' + paramId + '-' + optionId);
 
           if (optionImage) {
@@ -180,6 +174,12 @@
           }
         }
       }
+
+      //multiply price by amount
+      price *= thisProduct.amountWidget.value;
+
+      // update calculated price in the HTML
+      thisProduct.priceElem.innerHTML = price;
     }
   }
 
