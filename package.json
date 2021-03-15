@@ -29,7 +29,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "build": "^0.1.4"
+        "build": "^0.1.4",
+        "json-server": "^0.16.3"
     },
     "devDependencies": {
         "autoprefixer": "^10.2.4",
