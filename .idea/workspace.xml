@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccba62cd-4d16-450b-ab85-161730ff5fbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/Booking.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/data.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +108,8 @@
       <workItem from="1615646791947" duration="7089000" />
       <workItem from="1615747774419" duration="3787000" />
       <workItem from="1615805329088" duration="11014000" />
-      <workItem from="1615833390672" duration="2770000" />
+      <workItem from="1615833390672" duration="3951000" />
+      <workItem from="1615921233109" duration="3848000" />
     </task>
     <servers />
   </component>
@@ -130,22 +129,22 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state x="443" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1422.760@0.0.1422.760" timestamp="1615818659830" />
-    <state width="1402" height="176" key="GridCell.Tab.0.bottom" timestamp="1615835781069">
+    <state width="1402" height="176" key="GridCell.Tab.0.bottom" timestamp="1615921773779">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1615835781069" />
-    <state width="1402" height="176" key="GridCell.Tab.0.center" timestamp="1615835781069">
+    <state width="1402" height="176" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1615921773779" />
+    <state width="1402" height="176" key="GridCell.Tab.0.center" timestamp="1615921773779">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1615835781069" />
-    <state width="1402" height="176" key="GridCell.Tab.0.left" timestamp="1615835781068">
+    <state width="1402" height="176" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1615921773779" />
+    <state width="1402" height="176" key="GridCell.Tab.0.left" timestamp="1615921773778">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1615835781068" />
-    <state width="1402" height="176" key="GridCell.Tab.0.right" timestamp="1615835781069">
+    <state width="1402" height="176" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1615921773778" />
+    <state width="1402" height="176" key="GridCell.Tab.0.right" timestamp="1615921773779">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1615835781069" />
+    <state width="1402" height="176" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1615921773779" />
     <state width="1402" height="236" key="GridCell.Tab.1.bottom" timestamp="1615752217097">
       <screen x="0" y="0" width="1422" height="760" />
     </state>

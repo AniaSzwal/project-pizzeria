@@ -290,7 +290,7 @@
     constructor(element) {
       const thisWidget = this;
       thisWidget.getElements(element);
-      thisWidget.setValue(settings.amountWidget.defaultValue);
+      thisWidget.setValue(thisWidget.input.value || settings.amountWidget.defaultValue);
       thisWidget.initActions();
 
 
@@ -343,7 +343,9 @@
     announce() {
       const thisWidget = this;
 
-      const event = new Event('updated');
+      const event = new Event('updated', {
+        bubbles: true
+      });
       thisWidget.element.dispatchEvent(event);
     }
   }
@@ -371,7 +373,7 @@
       thisCart.dom.toggleTrigger = element.querySelector(select.cart.toggleTrigger);
       thisCart.dom.productList = element.querySelector(select.cart.productList);
       thisCart.dom.deliveryFee = element.querySelector(select.cart.deliveryFee);
-      thisCart.dom.subTotalPrice = element.querySelector(select.cart.subTotalPrice);
+      thisCart.dom.subTotalPrice = element.querySelector(select.cart.subtotalPrice);
       thisCart.dom.totalPrice = element.querySelectorAll(select.cart.totalPrice);
       thisCart.dom.totalNumber = element.querySelector(select.cart.totalNumber);
       thisCart.dom.form = element.querySelector(select.cart.form);
@@ -386,7 +388,7 @@
       thisCart.dom.toggleTrigger.addEventListener('click', function () {
         thisCart.dom.wrapper.classList.toggle(classNames.cart.wrapperActive);
       });
-      thisCart.dom.productList.addEventListener('update', function () {
+      thisCart.dom.productList.addEventListener('updated', function () {
         thisCart.update();
       });
       thisCart.dom.productList.addEventListener('remove', function (event) {
@@ -460,6 +462,7 @@
         thisCart.totalNumber = parseInt(thisCart.totalNumber) + parseInt(product.amount);
         thisCart.subTotalPrice = parseInt(thisCart.subTotalPrice) + parseInt(product.price);
       }
+      thisCart.dom.subTotalPrice.innerHTML = thisCart.subTotalPrice;
       thisCart.totalPrice = thisCart.deliveryFee + thisCart.subTotalPrice;
 
       if (thisCart.subTotalPrice > 0) {
