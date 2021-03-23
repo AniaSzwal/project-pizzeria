@@ -13,7 +13,7 @@
 
   &.loading {
     opacity: 0.25;
-}
+  }
 }
 
 .booking-wrapper {
@@ -31,7 +31,7 @@
 
   > .widget-amount {
     margin: ($base-size * 2) 0 0 0;
-}
+  }
 
 }
 
@@ -53,7 +53,7 @@
   .output {
     position: absolute;
     right: 0;
-}
+  }
 
 }
 
@@ -71,29 +71,29 @@
 
     &::after {
       display: none;
-  }
+    }
 
     &__horizontal {
       width: ($base-size * 2);
       height: ($base-size * 2);
       top: -6px;
       background: $color-dark;
-  }
+    }
 
-}
+  }
 
   &__fill {
     background: $color-success;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
     transition: width 100ms;
     box-shadow: none;
-}
+  }
 }
 
 .flatpickr-day {
   &.disabled {
     color: lighten($color-dark, 60%);
-}
+  }
 }
 
 .floor-plan {
@@ -110,13 +110,13 @@
     position: absolute;
     text-align: center;
     vertical-align: center;
-}
+  }
 
   .object {
     @extend .h3;
     background: #f7f1e3;
     box-shadow: 0 0 12px rgba(0,0,0,0.2);
-}
+  }
 
   .entry {
     bottom: -24px;
@@ -129,7 +129,7 @@
     background: #ede3c8;
     border: 1px solid $color-dark;
     border-width: 0 6px 0 6px;
-}
+  }
 
   .bar {
     left: 0;
@@ -137,7 +137,7 @@
     width: 100px;
     height: 50px;
     line-height: 50px;
-}
+  }
 
   .table {
     @extend .h2;
@@ -153,9 +153,9 @@
 
       &::after {
         border-radius: 50%;
-    }
+      }
 
-  }
+    }
 
     &.booked {
       cursor: not-allowed;
@@ -170,15 +170,15 @@
         top: 0;
         background: $color-dark;
         opacity: 0.4;
-    }
+      }
 
+    }
   }
-}
 
   [data-table="1"] {
     left: 40px;
     top: 40px;
-}
+  }
 
   [data-table="2"] {
     right: 25px;
