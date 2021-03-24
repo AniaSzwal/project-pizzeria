@@ -4,7 +4,8 @@
     <list default="true" id="ccba62cd-4d16-450b-ab85-161730ff5fbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/components/BaseWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/BaseWidget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/HourPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/HourPicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,7 @@
       <workItem from="1616501644052" duration="1693000" />
       <workItem from="1616511300297" duration="20617000" />
       <workItem from="1616543297294" duration="1635000" />
-      <workItem from="1616589262783" duration="602000" />
+      <workItem from="1616589262783" duration="2782000" />
     </task>
     <servers />
   </component>
