@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccba62cd-4d16-450b-ab85-161730ff5fbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/components/BaseWidget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/AmountWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/AmountWidget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Booking.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/partials/_booking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_booking.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/range-slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/range-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/example/range-slider-flat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/src/utils/dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/src/utils/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +141,8 @@
       <workItem from="1616410630317" duration="4440000" />
       <workItem from="1616495297379" duration="5826000" />
       <workItem from="1616501644052" duration="1693000" />
-      <workItem from="1616511300297" duration="19292000" />
+      <workItem from="1616511300297" duration="20617000" />
+      <workItem from="1616543297294" duration="1203000" />
     </task>
     <servers />
   </component>
@@ -146,22 +162,22 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state x="443" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1422.760@0.0.1422.760" timestamp="1616407980322" />
-    <state width="1402" height="176" key="GridCell.Tab.0.bottom" timestamp="1616540501929">
+    <state width="1402" height="176" key="GridCell.Tab.0.bottom" timestamp="1616544424573">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1616540501929" />
-    <state width="1402" height="176" key="GridCell.Tab.0.center" timestamp="1616540501929">
+    <state width="1402" height="176" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1616544424573" />
+    <state width="1402" height="176" key="GridCell.Tab.0.center" timestamp="1616544424572">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1616540501929" />
-    <state width="1402" height="176" key="GridCell.Tab.0.left" timestamp="1616540501929">
+    <state width="1402" height="176" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1616544424572" />
+    <state width="1402" height="176" key="GridCell.Tab.0.left" timestamp="1616544424572">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1616540501929" />
-    <state width="1402" height="176" key="GridCell.Tab.0.right" timestamp="1616540501929">
+    <state width="1402" height="176" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1616544424572" />
+    <state width="1402" height="176" key="GridCell.Tab.0.right" timestamp="1616544424572">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1616540501929" />
+    <state width="1402" height="176" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1616544424572" />
     <state width="1402" height="236" key="GridCell.Tab.1.bottom" timestamp="1615752217097">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
