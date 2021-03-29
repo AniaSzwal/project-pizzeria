@@ -1,8 +1,8 @@
-import{select} from'../settings.js';
-import AmountWidget from './AmountWidget.js';
+import {select} from '../settings.js';
+import AmountWidget from '../components/AmountWidget.js';
 
-class CartProduct {
-  constructor(menuProduct, element) {
+class CartProduct{
+  constructor(menuProduct, element){
 
     const thisCartProduct = this;
 
@@ -18,21 +18,7 @@ class CartProduct {
     thisCartProduct.initActions();
   }
 
-  getData(){
-    const thisCartProduct = this;
-    const prod = {};
-    prod.id = thisCartProduct.id;
-    prod.amount = thisCartProduct.amount;
-    prod.price = thisCartProduct.price;
-    prod.priceSingle = thisCartProduct.priceSingle;
-    prod.name = thisCartProduct.name;
-    prod.params = thisCartProduct.params;
-
-    return prod;
-  }
-
-
-  getElements(element) {
+  getElements(element){
     const thisCartProduct = this;
 
     thisCartProduct.dom = {};
@@ -43,19 +29,19 @@ class CartProduct {
     thisCartProduct.dom.remove = element.querySelector(select.cartProduct.remove);
   }
 
-  initAmountWidget() {
+  initAmountWidget(){
     const thisCartProduct = this;
 
     thisCartProduct.amountWidget = new AmountWidget(thisCartProduct.dom.amountWidget);
 
-    thisCartProduct.dom.amountWidget.addEventListener('updated', function () {
+    thisCartProduct.dom.amountWidget.addEventListener('updated', function(){
       thisCartProduct.amount = thisCartProduct.amountWidget.value;
       thisCartProduct.price = thisCartProduct.priceSingle * thisCartProduct.amount;
       thisCartProduct.dom.price.innerHTML = thisCartProduct.price;
     });
   }
 
-  remove() {
+  remove(){
     const thisCartProduct = this;
 
     const event = new CustomEvent('remove', {
@@ -67,17 +53,31 @@ class CartProduct {
     thisCartProduct.dom.wrapper.dispatchEvent(event);
   }
 
-  initActions() {
+  initActions(){
     const thisCartProduct = this;
 
-    thisCartProduct.dom.edit.addEventListener('click', function (event) {
+    thisCartProduct.dom.edit.addEventListener('click', function(event){
       event.preventDefault();
     });
 
-    thisCartProduct.dom.remove.addEventListener('click', function (event) {
+    thisCartProduct.dom.remove.addEventListener('click', function(event){
       event.preventDefault();
       thisCartProduct.remove();
     });
+  }
+
+  getData(){
+
+    const thisCartProduct = this;
+
+    const products = {
+      id: thisCartProduct.id,
+      amount: thisCartProduct.amount,
+      price: thisCartProduct.price,
+      priceSingle: thisCartProduct.priceSingle,
+      params: thisCartProduct.params,
+    };
+    return products;
   }
 }
 

@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccba62cd-4d16-450b-ab85-161730ff5fbb" name="Default Changelist" comment="">
+    <list default="true" id="812c2c43-8c13-477b-b2a2-87af2da3246c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/vendor/range-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/range-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/example/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/example/range-slider-flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/src/utils/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/src/utils/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/rangeSlider-0.4.11/rangeSlider-0.4.11/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-pizzeria.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-pizzeria.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/BaseWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/BaseWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/AmountWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/AmountWidget.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/CartProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/CartProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/DatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/DatePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/HourPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/HourPicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/_booking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_booking.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +69,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1p6Eklx2vYu82hSPHPIWhcS5Krs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -90,7 +138,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ccba62cd-4d16-450b-ab85-161730ff5fbb" name="Default Changelist" comment="" />
+      <changelist id="812c2c43-8c13-477b-b2a2-87af2da3246c" name="Default Changelist" comment="" />
       <created>1614495289375</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -126,6 +174,9 @@
       <workItem from="1616511300297" duration="20617000" />
       <workItem from="1616543297294" duration="1635000" />
       <workItem from="1616589262783" duration="2782000" />
+      <workItem from="1616788241920" duration="4235000" />
+      <workItem from="1616851033043" duration="12254000" />
+      <workItem from="1616872156917" duration="3339000" />
     </task>
     <servers />
   </component>
@@ -137,6 +188,10 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state x="565" y="273" key="#ESLint/0.0.1422.760@0.0.1422.760" timestamp="1616408256732" />
+    <state x="339" y="59" key="#Inspections" timestamp="1616859039395">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state x="339" y="59" key="#Inspections/0.0.1422.760@0.0.1422.760" timestamp="1616859039395" />
     <state x="490" y="183" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614538481871">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
@@ -145,22 +200,26 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state x="443" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1422.760@0.0.1422.760" timestamp="1616407980322" />
-    <state width="1402" height="176" key="GridCell.Tab.0.bottom" timestamp="1616544944565">
+    <state x="383" y="159" key="EditFileWatcherDialog" timestamp="1616763238361">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1616544944565" />
-    <state width="1402" height="176" key="GridCell.Tab.0.center" timestamp="1616544944565">
+    <state x="383" y="159" key="EditFileWatcherDialog/0.0.1422.760@0.0.1422.760" timestamp="1616763238361" />
+    <state width="1402" height="176" key="GridCell.Tab.0.bottom" timestamp="1616873641039">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1616544944565" />
-    <state width="1402" height="176" key="GridCell.Tab.0.left" timestamp="1616544944564">
+    <state width="1402" height="176" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1616873641039" />
+    <state width="1402" height="176" key="GridCell.Tab.0.center" timestamp="1616873641038">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1616544944564" />
-    <state width="1402" height="176" key="GridCell.Tab.0.right" timestamp="1616544944565">
+    <state width="1402" height="176" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1616873641038" />
+    <state width="1402" height="176" key="GridCell.Tab.0.left" timestamp="1616873641038">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1402" height="176" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1616544944565" />
+    <state width="1402" height="176" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1616873641038" />
+    <state width="1402" height="176" key="GridCell.Tab.0.right" timestamp="1616873641038">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state width="1402" height="176" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1616873641038" />
     <state width="1402" height="236" key="GridCell.Tab.1.bottom" timestamp="1615752217097">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
@@ -213,9 +272,9 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state x="370" y="172" key="run.anything.popup/0.0.1422.760@0.0.1422.760" timestamp="1616513379736" />
-    <state x="374" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1616525209702">
+    <state x="374" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1616861882890">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state x="374" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1422.760@0.0.1422.760" timestamp="1616525209702" />
+    <state x="374" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1422.760@0.0.1422.760" timestamp="1616861882890" />
   </component>
 </project>

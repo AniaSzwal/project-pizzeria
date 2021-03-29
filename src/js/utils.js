@@ -1,6 +1,6 @@
 /* global Handlebars, dataSource */
 
-const utils = {}; // eslint-disable-line no-unused-vars
+export const utils = {};
 
 utils.createDOMFromHTML = function(htmlString) {
   let div = document.createElement('div');
@@ -29,7 +29,7 @@ utils.serializeFormToObject = function(form){
         } else if ((field.type != 'checkbox' && field.type != 'radio') || field.checked) {
           utils.createPropIfUndefined(output, field.name);
           output[field.name].push(field.value);
-        } else if(!output[field.name]) output[field.name] = [];
+        }
       }
     }
   }

@@ -16,8 +16,11 @@
   }
 
   &__name {
-    position: relative;
     @extend .h1;
+    position: relative;
+    margin: 0;
+    font-weight: $font-semibold;
+    text-transform: uppercase;
   }
 
   &__icon {

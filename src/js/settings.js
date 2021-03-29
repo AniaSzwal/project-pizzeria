@@ -73,7 +73,8 @@ export const select = {
     hoursAmount: '.hours-amount',
     tables: '.floor-plan .table',
     form: '.booking-form',
-    starters: '[name="starter"]'
+    starters: '[name="starter"]',
+    allTables: '.floor-plan',
   },
   nav: {
     links: '.main-nav a',
@@ -89,6 +90,7 @@ export const classNames = {
     wrapperActive: 'active',
   },
   booking: {
+    tableSelected: 'selected',
     loading: 'loading',
     tableBooked: 'booked',
     tableClicked: 'clicked',
@@ -137,4 +139,5 @@ export const templates = {
   menuProduct: Handlebars.compile(document.querySelector(select.templateOf.menuProduct).innerHTML),
   cartProduct: Handlebars.compile(document.querySelector(select.templateOf.cartProduct).innerHTML),
   bookingWidget: Handlebars.compile(document.querySelector(select.templateOf.bookingWidget).innerHTML),
+  homeWidget: Handlebars.compile(document.querySelector(select.templateOf.homeWidget).innerHTML),
 };

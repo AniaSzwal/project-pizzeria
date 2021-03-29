@@ -1,0 +1,220 @@
+// *** pages ***
+
+.home-wrapper {
+  margin: ($base-size * 3) auto;
+  padding: ($base-size * 6) ($base-size * 4);
+  background: $color-light;
+  border-bottom: 1px solid lighten($color-dark, 70%);
+  border-radius: $radius;
+}
+
+// *** main options ***
+
+.main-options {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: $color-light;
+  font-family: $font-header;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+
+  /*
+  <div class="order-online">
+  <h2>order online</h2>
+  <p>Delicious food delivered to your door</p>
+  </div>
+  */
+  h2 {
+    font-size: 30px;
+    margin: 20px 0 10px;
+    font-weight: $font-light;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: auto;
+    color: $color-light;
+    font-weight: $font-semibold;
+  }
+
+  .order-online, .book-table {
+    height: 150px;
+    width: 300px;
+    background-position: center center;
+    background-size: cover;
+    margin: 10px;
+    flex: 45%;
+    border-radius: $radius;
+    font-family: $font-header;
+    cursor: pointer;
+
+    h2 {
+      position: relative;
+      top: 30px;
+    }
+
+    p {
+      position: relative;
+      font-family: $font-text;
+      top: 20px;
+      visibility: hidden;
+      text-transform: lowercase;
+      font-size: 14px;
+      letter-spacing: .04em;
+    }
+  }
+
+  .order-online {
+    background-image: url("./../../images/assets/pizza-1.jpg");
+  }
+
+  .book-table {
+    background-image: url("./../../images/assets/pizza-2.jpg");
+  }
+
+  .order-online:hover {
+    h2 {
+      transform: translateY(-35px);
+      opacity: 1;
+      transition: 0.5s all;
+    }
+
+    p {
+      visibility: visible;
+      transform: translateY(-33px);
+      opacity: 1;
+      transition: 0.5s all;
+    }
+  }
+
+  .opening-hours {
+    background: $color-main;
+    flex: 100%;
+    height: 140px;
+    width: 600px;
+    margin: 10px;
+    border-radius: $radius;
+
+    h2 {
+      margin-bottom: 0 auto;
+      padding: 0 auto;
+    }
+  }
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 90px;
+  cursor: pointer;
+
+  .gallery-box {
+    position: relative;
+    padding: 2px auto;
+
+    img {
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+      border-radius: $radius;
+    }
+  }
+
+  .gallery-box:hover {
+    img {
+      opacity: 0.4;
+      transition: all 0.3s;
+    }
+
+    .overlay{
+      visibility: visible;
+    }
+  }
+
+  ul {
+    li {
+
+      display: inline;
+      font-size: 0;
+
+      i {
+        font-size: 25px;
+      }
+
+      .fa-heart {
+        color: $color-danger;
+        padding: 10px;
+      }
+
+      .fa-share-alt {
+        color: $color-light;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  padding: 0;
+  visibility: hidden;
+}
+
+.instagram {
+  padding: 10px auto;
+  margin: 20px auto;
+
+  a {
+    color: $color-main;
+  }
+}
+
+// *** carousel ***
+
+.carousel-section {
+  height: 350px;
+  margin-top: 30px;
+  margin: 10px;
+  margin-top: 90px;
+
+
+  .carousel-item {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    margin: 10px;
+  }
+
+  img {
+    border-radius: $radius;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+  }
+
+  h4 {
+    font-weight: $font-bold;
+    text-transform: uppercase;
+    font-family: $font-text;
+    font-size: 18px;
+  }
+
+  p:nth-child(2) {
+    font-size: 14px;
+    font-weight: $font-light;
+    text-align: justify;
+    font-family: $font-text;
+  }
+
+  p:nth-child(3) {
+    font-style: italic;
+    font-size: 16px;
+  }
+}
